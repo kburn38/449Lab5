@@ -1,36 +1,15 @@
+:root {
+    --padding-size: 25px 300px 25px 300px;
+}
+
 body {
     font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
+    color: #242424;
+    background: #e0e0e0;
     padding: 0 40px;
     text-align: center;
-}
-
-nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    list-style-type: none;
-    margin: 0;
-}
-
-nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
+    text-wrap: balance;
+    padding: var(--padding-size);
 }
 
 h1 {
@@ -38,13 +17,47 @@ h1 {
     letter-spacing: -2px;
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+h2 {
+    font-size: 4em;
 }
 
-img.about {
-    opacity: 0.5;
+p {
+    font-size: 1.4em;
+}
+
+header {
+    text-align: left;
+    font-size: 1.4em;
+}
+
+div {
+    display: flex;
+    align-text: left;
+    align-items: center;
+}
+
+.small {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+form {
+    background: #a8a8a8;
+}
+
+.text {
+    background: #bfbfbf;
+    margin: 30px 0px 30px 30px;
+    width: 400px;
+    height: 50px;
+}
+
+.button {
+    background: #ed4539;
+    color: white;
+    margin: 30px 30px 30px 0px;
+    height: 55px;
+    width: 120px;
+    font-weight: bold;
 }
